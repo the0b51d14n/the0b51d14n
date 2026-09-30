@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180" role="img" aria-labelledby="t">
+  <title id="t">SupKrellM — Moniteur système Linux en Python (projet pédagogique, terminé)</title>
+  <defs>
+    <linearGradient id="iris" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/><stop offset=".45" stop-color="#22d3ee"/><stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".045"/><stop offset="1" stop-color="#fff" stop-opacity=".012"/>
+    </linearGradient>
+    <radialGradient id="spot" cx=".82" cy="0" r=".6">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".13"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gridFade" cx=".8" cy=".5" r=".45">
+      <stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#fff" fill-opacity=".1"/></pattern></defs>
+  
+  <clipPath id="clip-p"><rect width="1000" height="180" rx="18"/></clipPath>
+  <mask id="mask-p"><rect width="1000" height="180" fill="url(#gridFade)"/></mask>
+  <g clip-path="url(#clip-p)">
+    <rect width="1000" height="180" fill="#0a0c14"/>
+    <rect width="1000" height="180" fill="url(#surface)"/>
+    <rect width="1000" height="180" fill="url(#grid)" mask="url(#mask-p)"/>
+    <rect width="1000" height="180" fill="url(#spot)"/>
+  </g>
+  <rect x=".5" y=".5" width="999" height="179" rx="17.5" fill="none" stroke="#fff" stroke-opacity=".08"/>
+  <text x="48" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#5b6379" letter-spacing="2">04</text>
+  <text x="82" y="58" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#8a92aa" letter-spacing="2.6">PROJET PÉDAGOGIQUE</text>
+  <text x="46" y="110" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#f4f6fb" letter-spacing="-1">SupKrellM</text>
+  <text x="48" y="144" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="19" fill="#c3c9da">Moniteur système Linux en Python</text>
+  <g transform="translate(516.8 36)">
+    <rect width="79.19999999999999" height="26" rx="13" fill="#c3c9da" fill-opacity=".1" stroke="#c3c9da" stroke-opacity=".35"/>
+    <circle cx="14" cy="13" r="3" fill="#c3c9da"/>
+    <text x="24" y="17.5" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="500" fill="#c3c9da">Terminé</text>
+  </g>
+  <defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity=".3"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient></defs><line x1="650" y1="58" x2="948" y2="58" stroke="#fff" stroke-opacity=".06"/><line x1="650" y1="78" x2="948" y2="78" stroke="#fff" stroke-opacity=".06"/><line x1="650" y1="98" x2="948" y2="98" stroke="#fff" stroke-opacity=".06"/><line x1="650" y1="118" x2="948" y2="118" stroke="#fff" stroke-opacity=".06"/><line x1="650" y1="138" x2="948" y2="138" stroke="#fff" stroke-opacity=".06"/><polygon points="650,138 650.0,120 665.7,112 681.4,116 697.1,98 712.7,104 728.4,80 744.1,92 759.8,86 775.5,68 791.2,76 806.8,54 822.5,78 838.2,72 853.9,90 869.6,82 885.3,100 900.9,94 916.6,108 932.3,102 948.0,110 948,138" fill="url(#area)"/><polyline points="650.0,120 665.7,112 681.4,116 697.1,98 712.7,104 728.4,80 744.1,92 759.8,86 775.5,68 791.2,76 806.8,54 822.5,78 838.2,72 853.9,90 869.6,82 885.3,100 900.9,94 916.6,108 932.3,102 948.0,110" fill="none" stroke="url(#iris)" stroke-width="2.5" stroke-linejoin="round"/><circle cx="806.8421052631579" cy="54" r="4.5" fill="#f4f6fb"/><text x="650" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8a92aa">cpu · mem · disk · net</text>
+</svg>

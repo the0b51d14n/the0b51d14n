@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180" role="img" aria-labelledby="t">
+  <title id="t">CODEX Chronique — L'archive chronologique du jeu vidéo (projet personnel, en cours)</title>
+  <defs>
+    <linearGradient id="iris" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/><stop offset=".45" stop-color="#22d3ee"/><stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".045"/><stop offset="1" stop-color="#fff" stop-opacity=".012"/>
+    </linearGradient>
+    <radialGradient id="spot" cx=".82" cy="0" r=".6">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".13"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gridFade" cx=".8" cy=".5" r=".45">
+      <stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#fff" fill-opacity=".1"/></pattern></defs>
+  
+  <clipPath id="clip-p"><rect width="1000" height="180" rx="18"/></clipPath>
+  <mask id="mask-p"><rect width="1000" height="180" fill="url(#gridFade)"/></mask>
+  <g clip-path="url(#clip-p)">
+    <rect width="1000" height="180" fill="#0a0c14"/>
+    <rect width="1000" height="180" fill="url(#surface)"/>
+    <rect width="1000" height="180" fill="url(#grid)" mask="url(#mask-p)"/>
+    <rect width="1000" height="180" fill="url(#spot)"/>
+  </g>
+  <rect x=".5" y=".5" width="999" height="179" rx="17.5" fill="none" stroke="#fff" stroke-opacity=".08"/>
+  <text x="48" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#5b6379" letter-spacing="2">01</text>
+  <text x="82" y="58" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#8a92aa" letter-spacing="2.6">PROJET PERSONNEL</text>
+  <text x="46" y="110" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#f4f6fb" letter-spacing="-1">CODEX Chronique</text>
+  <text x="48" y="144" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="19" fill="#c3c9da">L'archive chronologique du jeu vidéo</text>
+  <g transform="translate(509.2 36)">
+    <rect width="86.8" height="26" rx="13" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".35"/>
+    <circle cx="14" cy="13" r="3" fill="#22d3ee"/>
+    <text x="24" y="17.5" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="500" fill="#22d3ee">En cours</text>
+  </g>
+  <line x1="648" y1="96" x2="948" y2="96" stroke="#fff" stroke-opacity=".12" stroke-width="2"/><line x1="648" y1="96" x2="852" y2="96" stroke="url(#iris)" stroke-width="2"/><line x1="660" y1="96" x2="660" y2="62" stroke="#fff" stroke-opacity=".1"/><rect x="638" y="52" width="44" height="10" rx="3" fill="#fff" fill-opacity="0.06"/><circle cx="660" cy="96" r="4" fill="#22d3ee" stroke="none"/><line x1="712" y1="96" x2="712" y2="134" stroke="#fff" stroke-opacity=".1"/><rect x="690" y="134" width="44" height="10" rx="3" fill="#fff" fill-opacity="0.06"/><circle cx="712" cy="96" r="4" fill="#22d3ee" stroke="none"/><line x1="748" y1="96" x2="748" y2="46" stroke="#fff" stroke-opacity=".1"/><rect x="726" y="36" width="44" height="10" rx="3" fill="#fff" fill-opacity="0.06"/><circle cx="748" cy="96" r="4" fill="#22d3ee" stroke="none"/><line x1="800" y1="96" x2="800" y2="128" stroke="#fff" stroke-opacity=".1"/><rect x="778" y="128" width="44" height="10" rx="3" fill="#fff" fill-opacity="0.06"/><circle cx="800" cy="96" r="4" fill="#22d3ee" stroke="none"/><line x1="852" y1="96" x2="852" y2="54" stroke="#fff" stroke-opacity=".1"/><rect x="830" y="44" width="44" height="10" rx="3" fill="#fff" fill-opacity="0"/><circle cx="852" cy="96" r="14" fill="#22d3ee" fill-opacity=".15"/><rect x="830" y="44" width="44" height="10" rx="3" fill="#22d3ee" fill-opacity=".35"/><circle cx="852" cy="96" r="5.5" fill="#22d3ee" stroke="none"/><line x1="884" y1="96" x2="884" y2="140" stroke="#fff" stroke-opacity=".1"/><rect x="862" y="140" width="44" height="10" rx="3" fill="#fff" fill-opacity="0.06"/><circle cx="884" cy="96" r="4" fill="#1a1e2e" stroke="#5b6379"/><line x1="936" y1="96" x2="936" y2="62" stroke="#fff" stroke-opacity=".1"/><rect x="914" y="52" width="44" height="10" rx="3" fill="#fff" fill-opacity="0.06"/><circle cx="936" cy="96" r="4" fill="#1a1e2e" stroke="#5b6379"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="28" viewBox="0 0 1000 28" role="presentation" aria-hidden="true">
+  <defs>
+    <linearGradient id="l" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#8b5cf6" stop-opacity=".55"/>
+      <stop offset=".5" stop-color="#22d3ee"/>
+      <stop offset=".7" stop-color="#34d399" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="80" y="13.5" width="840" height="1" fill="url(#l)"/>
+  <rect x="495" y="9" width="10" height="10" rx="2" transform="rotate(45 500 14)" fill="#22d3ee" fill-opacity=".2" stroke="#22d3ee" stroke-opacity=".8"/>
+</svg>
