@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-labelledby="t d">
+  <title id="t">Théo Andrimananarisoa — Obsiwebs</title>
+  <desc id="d">Développeur web full-stack en formation, étudiant à SUPINFO Lille, en alternance chez Evolve Marketing.</desc>
+  <defs>
+    <!-- Tokens repris du portfolio obsiwebs.com -->
+    <linearGradient id="iris" x1="0" y1="0" x2="1" y2="0.18">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="0.45" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="logo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6d4af0"/>
+      <stop offset="0.55" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="stem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3c9da" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity=".85"/>
+    </linearGradient>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".2" stop-color="#fff" stop-opacity=".14"/>
+      <stop offset=".5" stop-color="#22d3ee" stop-opacity=".6"/>
+      <stop offset=".8" stop-color="#fff" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="fade" cx=".5" cy=".3" r=".75">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan"><stop offset="0" stop-color="#22d3ee" stop-opacity=".22"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowViolet"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".2"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="dot"><stop offset="0" stop-color="#fff"/><stop offset=".35" stop-color="#a5f3fc"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#fff" fill-opacity=".13"/>
+    </pattern>
+    <mask id="gridMask"><rect width="1000" height="340" fill="url(#fade)"/></mask>
+    <clipPath id="card"><rect width="1000" height="340" rx="20"/></clipPath>
+    <!-- Orbite du logo (repère local du logo, 512 × 512) -->
+    <path id="orbitPath" d="M50 318 C 40 250 250 205 400 190 C 520 178 505 230 420 262 C 320 300 100 350 50 318 Z"/>
+    <style>
+      .drift-a { animation: drift 16s ease-in-out infinite alternate; }
+      .drift-b { animation: drift 20s ease-in-out infinite alternate-reverse; }
+      .pulse   { animation: pulse 2s cubic-bezier(.4,0,.6,1) infinite; }
+      .sweep   { animation: sweep 7s ease-in-out infinite; }
+      .float   { animation: float 7s ease-in-out infinite; }
+      @keyframes drift { from { transform: translate(0,0); } to { transform: translate(40px,-18px); } }
+      @keyframes pulse { 50% { opacity: .35; } }
+      @keyframes sweep { 0% { transform: translateX(-620px); } 60%, 100% { transform: translateX(1000px); } }
+      @keyframes float { 50% { transform: translateY(-6px); } }
+      @media (prefers-reduced-motion: reduce) {
+        .drift-a, .drift-b, .pulse, .sweep, .float { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <!-- Fond obsidienne + trame de points -->
+    <rect width="1000" height="340" fill="#05060a"/>
+    <rect width="1000" height="340" fill="url(#grid)" mask="url(#gridMask)"/>
+    <ellipse class="drift-a" cx="840" cy="300" rx="300" ry="170" fill="url(#glowCyan)"/>
+    <ellipse class="drift-b" cx="120" cy="20" rx="320" ry="190" fill="url(#glowViolet)"/>
+
+    <!-- Badge « en alternance » -->
+    <rect x="64" y="52" width="290" height="30" rx="15" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".3"/>
+    <circle class="pulse" cx="83" cy="67" r="3" fill="#22d3ee"/>
+    <text x="96" y="71.5" fill="#22d3ee" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing=".3">En alternance chez Evolve Marketing</text>
+
+    <!-- Identité -->
+    <g font-family="Inter, 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="-1.5">
+      <text x="62" y="154" font-size="60" fill="#f4f6fb">Théo</text>
+      <text x="62" y="220" font-size="60" fill="url(#iris)">Andrimananarisoa</text>
+    </g>
+    <text x="64" y="264" fill="#c3c9da" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="20">Développeur web full-stack en formation · SUPINFO Lille</text>
+    <text x="64" y="298" fill="#8a92aa" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14">// Je code ce que j'aurais voulu designer.</text>
+
+    <!-- Monogramme Obsiwebs (vectorisation du logo du site) -->
+    <ellipse cx="832" cy="290" rx="150" ry="26" fill="url(#glowCyan)"/>
+    <g class="float">
+      <g transform="translate(722 52) scale(.44)">
+        <use href="#orbitPath" fill="none" stroke="url(#orbit)" stroke-width="7" stroke-opacity=".35"/>
+        <path d="M106 86 L436 86 L372 158 Q364 166 352 166 L40 166 Z" fill="url(#logo)"/>
+        <path d="M106 86 L436 86 L424 100 L94 100 Z" fill="#fff" fill-opacity=".18"/>
+        <path d="M212 176 Q216 170 224 170 L284 170 Q294 170 290 180 L222 418 Q219 428 208 428 L146 428 Q134 428 138 418 Z" fill="url(#stem)" stroke="#8b5cf6" stroke-opacity=".6" stroke-width="3"/>
+        <!-- Arc avant de l'orbite, par-dessus le jambage -->
+        <path d="M400 190 C 520 178 505 230 420 262 C 320 300 100 350 50 318" fill="none" stroke="url(#orbit)" stroke-width="8" stroke-linecap="round"/>
+        <!-- Point lumineux en orbite -->
+        <g>
+          <circle r="34" fill="url(#dot)" opacity=".75"/>
+          <circle r="9" fill="#e0fbff"/>
+          <animateMotion dur="9s" repeatCount="indefinite" rotate="0" calcMode="linear">
+            <mpath href="#orbitPath"/>
+          </animateMotion>
+        </g>
+      </g>
+    </g>
+    <text x="936" y="318" text-anchor="end" fill="#5b6379" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="3.2">OBSIWEBS.COM</text>
+
+    <!-- Liseré lumineux (même dégradé que les séparateurs du site) -->
+    <rect y="0" width="1000" height="1" fill="#fff" fill-opacity=".06"/>
+    <rect class="sweep" y="0" width="620" height="1.5" fill="url(#shimmer)"/>
+  </g>
+  <rect x=".5" y=".5" width="999" height="339" rx="19.5" fill="none" stroke="#fff" stroke-opacity=".07"/>
+</svg>
